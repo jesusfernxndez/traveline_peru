@@ -1,0 +1,56 @@
+body{
+    background-image: url(/img/fondo.jpg);
+}
+.container3{
+  
+    font-family: 'Lucida Sans';
+    margin: 150px;
+
+}
+.container2{
+    width: 1200px;
+    background: white;
+    margin: 10px auto;
+
+}
+.superior{
+
+    background: #807F7F;
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    width: 300px;
+    padding: 35px;
+}
+.menu2{
+    float: left;
+    padding: 50px;
+}
+.opciones li{
+    float: left;
+    list-style: none;
+}
+.opciones li a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+.opciones li a:hover{
+    background: #919090;
+}
+.container{
+ margin: auto;
+background-color: white;
+width: 800px;
+padding: 30px;
+}
+
+h1{
+    color: #fed763;
+}
+body>p{
+    color: aliceblue;
+}

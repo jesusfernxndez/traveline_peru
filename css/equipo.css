@@ -1,0 +1,89 @@
+.Equipo{
+  
+   font-size: 35px;
+   width: 800px;
+   color: black;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   margin: auto;
+   padding: 30px;
+   border: 4px solid black;
+   border-radius: 10px;
+   
+
+}
+.Equipo1 {
+   
+    
+    font-size: 35px;
+    width: 800px;
+   color: black;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   margin: auto;
+   padding: 30px;
+   border: 4px solid black;
+   border-radius: 10px;
+
+}
+.Equipo2 {
+    
+    background-color: #919090;
+    font-size: 35px;
+    width: 800px;
+   color: black;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+  padding: 30px;
+   margin: auto;
+   border: 4px solid black;
+   border-radius: 10px;
+
+}
+.Equipo3 {
+   
+    background-color: #919090;
+    font-size: 35px;
+    width: 800px;
+   color: black;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   margin: auto;
+   padding: 30px;
+   border: 4px solid black;
+   border-radius: 10px;
+
+} 
+
+.nombre{
+    width: 800px;
+    text-align: center;
+    background-color: #2d8988;
+    border: 2px solid black; 
+}
+body>img{
+    border: 2px solid black;
+    border-radius: 15px; 
+}
+.codigo{
+    width: auto;
+    background-color: #891D1D ;
+    border: 2px solid black ;
+    
+}
+.sede{
+    width: auto;
+    background-color:#21486E  ;
+    border: 2px solid black ;
+}
+legend{
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    background-color: moccasin;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+button{
+    background-color: #891D1D;
+}

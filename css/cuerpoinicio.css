@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+/*:::::Pie de Pagina*/
+.grupo-caja{
+    width: 100%;
+    background-color: #32a2c7;
+}
+.grupo-caja {
+    width: 100%;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+
+
+.caja{
+    padding: 10px;
+}
+
+.parrafo{
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    padding: 30px;
+    background-color: #c4e4fc;
+}
+
+.caja>h2{
+    text-align: center;
+    padding-top: 10px;
+    background-color: #fed763;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media screen and (max-width:858px){
+    .grupo-caja{
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+}
+

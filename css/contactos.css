@@ -1,0 +1,141 @@
+        /* estilos de contactos */
+        .seccion-contacto{
+            
+            
+            display:grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap:50px;
+
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            background: url(/img/fondo-contacto.jpg);
+            margin: 0;
+            left: 0;
+            right: 0;
+           padding: 50px 10px;
+           
+            }
+    
+            .seccion-info{
+                color:#fff;
+                max-width: 100%;
+                line-height: 65px;
+                padding-left: 50px;
+                font-size: 18px;
+                text-align: justify ;
+                padding-top: 30px;
+                
+            }
+    
+            .seccion-info i{
+                margin-right: 20px;
+                font-size: 25px;
+            }
+            .formulario{
+                max-width: 700px;
+                margin-right: 50px;
+                align-items: center;
+                text-align: center;
+                left: 0px;
+                right: 0px;
+    
+            }
+            .seccion-info, .formulario .mapa{
+                flex: 1;
+    
+            }
+    
+            .seccion-contacto h2{
+                color: #fff;
+                text-align: center;
+                font-size: 35px;
+                text-transform: uppercase;
+                margin-bottom: 30px;
+            }
+    
+            .seccion-contacto .text-box{
+                background: #1b1b1b;
+                color: #fff;
+                border: none;
+                width: calc(50% - 10px);
+                height: 50px;
+                padding: 2px;
+                font-size: 15px;
+                border-radius: 5px;
+                box-shadow: 0 1px 1px rgb(0, 0, 0.1);
+                margin-bottom: 20px;
+                opacity: 0.9;
+            }
+            .formulario textarea{
+                background:#1b1b1b ;
+                color: #fff;
+                border: nonce;
+                width: 95%;
+                padding: 2px;
+                font-size: 15px;
+                min-height: 200px;
+                max-height: 400px;
+                resize: vertical;
+                border-radius: 5px;
+                opacity: 0.9;
+                margin-bottom: 15px;
+            } 
+            .formulario .send-btn{
+                float: right;
+                background: #2E94E3;
+                color: white;
+                border: none;
+                width: 120px;
+                height: 40px;
+                font-size: 15px;
+                font-weight: 600;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                border-radius: 5px;
+            
+            }  
+            .formulario .send-btn:hover{
+                background: #0582E3;
+                
+            }
+            /* mapa */
+            .mapa{
+                align-items: center;
+                
+                width: 100%;
+                height: 100%;
+                border-radius: 3px solid black;
+                margin-right: 20px;
+                padding: 15px;
+               right: 0px;
+               left: 0px;
+            }
+            /* alerta css */
+            .alert-success{
+                z-index: 1;
+                background: #D4EDDA;
+                font-size: 18px;
+                padding: 20px 40px;
+                min-width: 420px;
+                position: fixed;
+                right: 0;
+                top: 100px;
+                border-left: 8px solid #3AD66E;
+                border-radius: 4px;
+                
+            }
+            @media screen and (max-width:858px){
+                .seccion-contacto{
+                    width: 100%;
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-gap:30px;
+                    padding: 35px 0px;
+                    text-align: center;
+
+                    margin: 0;
+                    padding: 0;
+                
+                }
+               
+            }
